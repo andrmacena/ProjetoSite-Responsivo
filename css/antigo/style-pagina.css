@@ -1,0 +1,40 @@
+.pagina-cabecalho{
+    background-color: #dd3f3f;
+    background-image: url("../img/cabecalho-pagina-bg.jpg");
+    background-attachment: fixed; /*mantém o background fixo ao documento, dando efeito de "infinito"*/
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pagina-cabecalho__titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pagina-cabecalho__titulo::after /*seletor de pseudo-elemente, no caso o after que tem por padrão display inline*/{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto; /*deixando as margens top e bottom zerados e o valor "auto" centraliza o objeto no centro da tela, no caso uma linha abaixo do título "Sobre nós"*/
+    margin-top: 20px;
+}
+
+.pagina-conteudo{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.pagina-conteudo p{
+    color: #3a3a3a;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-center{
+    text-align: center;
+}

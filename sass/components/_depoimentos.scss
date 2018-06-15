@@ -1,0 +1,38 @@
+.depoimentos{
+    background-color: #dd3f3f;
+    background-image: url(../img/cabecalho-pagina-bg.jpg);
+    background-attachment: fixed;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.depoimentos__item{
+    padding: 0 15px;
+}
+
+.depoimentos__img{
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px 3px 0 #000;/*sombra na imagem, mexendo na horizontal, vertical e blur da sombra onde 0 é o mais alto*/
+    margin-bottom: 30px;
+}
+
+.depoimentos__texto{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.depoimentos__texto::before{
+    background: url("../img/aspas.png") no-repeat;
+    content: '';
+    display: inline-block; /*para ele nao quebrar a linha e ainda assim poder manusea-lo como uma forma de bloco no navegador*/
+    width: 25px;
+    height: 23px;
+    margin-right: 5px;
+}
+
+.depoimentos__pessoa{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}

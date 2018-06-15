@@ -1,0 +1,17 @@
+@font-face{/*Regra para deixar uma fonte no projeto, no caso Source Sans Pro*/
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
+}
+
+@font-face{/*Regra para fonte em negrito, da mesma família*/
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face{/*Regra para fonte em negrito, da mesma família*/
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-BoldIt.otf');
+    font-weight: bold;
+    font-style: italic;
+}

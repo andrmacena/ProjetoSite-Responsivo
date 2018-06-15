@@ -1,0 +1,14 @@
+/*Logotipo*/
+.logo{
+    background-image: url("../img/logotipo-preto.png");
+    background-repeat: no-repeat;
+    display: block; /*comportamento da box model do h1, por padrão é block porém essa class está sendo usada em outro objeto que é link e por padrão o display dele é inline */
+    width: 123px;
+    height: 53px;
+    text-indent: -9999px; /*Sumir com o texto "Design Responsivo" definido por padrão no logo, porém mantém a acessibilidade do site (leitores de tela etc etc)"*/ 
+    margin: 0;
+}
+.logo--branco{
+    background-image: url("../img/logotipo-branco.png");
+
+}
