@@ -7,8 +7,8 @@
     height: 53px;
     text-indent: -9999px; /*Sumir com o texto "Design Responsivo" definido por padrão no logo, porém mantém a acessibilidade do site (leitores de tela etc etc)"*/ 
     margin: 0;
-}
-.logo--branco{
-    background-image: url("../img/logotipo-branco.png");
-
+    &--branco{
+        background-image: url("../img/logotipo-branco.png");
+    
+    }
 }

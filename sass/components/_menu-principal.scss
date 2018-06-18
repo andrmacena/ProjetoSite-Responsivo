@@ -16,13 +16,14 @@
     position: absolute;
     top: 15px;
     right: 15px;
+
+    &--fechar/*classe modificadora do botão para mobile, classe do botão em estado de fechado*/{
+    
+        background-position: -48px 7px; /*usando uma imagem para o menu, porém trocando-as pela posição*/
+    
+    }
 }
 
-.menu-principal__btn--fechar/*classe modificadora do botão para mobile, classe do botão em estado de fechado*/{
-
-    background-position: -48px 7px; /*usando uma imagem para o menu, porém trocando-as pela posição*/
-
-}
 
 .menu-principal__lista{
     padding: 0;
@@ -36,8 +37,7 @@
     margin-bottom: 10px;
     display: block; 
     font-size: 18px;
-}
-
-.menu-principal__item--atual{
-    color: $cor-principal;
+    &--atual{
+        color: $cor-principal;
+    }
 }

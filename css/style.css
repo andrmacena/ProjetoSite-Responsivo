@@ -334,49 +334,41 @@ body {
 /*Rodapé*/
 .rodape {
   color: #fff; }
-
-.rodape .logo {
-  margin-bottom: 20px; }
-
-.rodape__linha-1 {
-  background-color: #272525;
-  background-image: url("../img/rodape-bg.jpg");
-  /*sobrepoe a cor do background, e caso seja uma rede lenta o navegador carrega a cor do backgroun ao em vez da imagem*/
-  background-size: cover;
-  /*propriedade cover serve para ajustar a imagem conforme o tamanho do container*/
-  padding: 15px; }
-
-.rodape__linha-2 {
-  background-color: #000;
-  text-align: center;
-  padding: 15px; }
-
-.rodape__coluna {
-  margin-top: 40px;
-  margin-bottom: 40px; }
-
-.rodape__titulo {
-  border-bottom: 1px solid #fff;
-  /*linha logo abaixo de "Social" e "Links"*/
-  padding: 0 10px 10px 10px;
-  /*top right bottom left, respectivamente*/
-  font-size: 18px; }
-
-.rodape__lista-links {
-  padding: 0;
-  list-style: none; }
-
-.rodape__lista-links__item {
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 10px;
-  /*separando os itens da lista*/
-  display: block; }
-
-.rodape__lista-links__item::before {
-  content: ">";
-  margin-right: 8px;
-  color: #f44242; }
+  .rodape.logo {
+    margin-bottom: 20px; }
+  .rodape__linha-1 {
+    background-color: #272525;
+    background-image: url("../img/rodape-bg.jpg");
+    /*sobrepoe a cor do background, e caso seja uma rede lenta o navegador carrega a cor do backgroun ao em vez da imagem*/
+    background-size: cover;
+    /*propriedade cover serve para ajustar a imagem conforme o tamanho do container*/
+    padding: 15px; }
+  .rodape__linha-2 {
+    background-color: #000;
+    text-align: center;
+    padding: 15px; }
+  .rodape__coluna {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .rodape__titulo {
+    border-bottom: 1px solid #fff;
+    /*linha logo abaixo de "Social" e "Links"*/
+    padding: 0 10px 10px 10px;
+    /*top right bottom left, respectivamente*/
+    font-size: 18px; }
+  .rodape__lista-links {
+    padding: 0;
+    list-style: none; }
+    .rodape__lista-links__item {
+      color: #fff;
+      text-decoration: none;
+      margin-bottom: 10px;
+      /*separando os itens da lista*/
+      display: block; }
+    .rodape__lista-links__item::before {
+      content: ">";
+      margin-right: 8px;
+      color: #f44242; }
 
 .text-center {
   text-align: center; }
@@ -387,34 +379,29 @@ body {
   background-attachment: fixed;
   color: #fff;
   padding: 30px 0; }
-
-.depoimentos__item {
-  padding: 0 15px; }
-
-.depoimentos__img {
-  margin: 0 auto;
-  display: block;
-  box-shadow: 3px 3px 0 #000;
-  /*sombra na imagem, mexendo na horizontal, vertical e blur da sombra onde 0 é o mais alto*/
-  margin-bottom: 30px; }
-
-.depoimentos__texto {
-  line-height: 24px;
-  margin-bottom: 30px; }
-
-.depoimentos__texto::before {
-  background: url("../img/aspas.png") no-repeat;
-  content: '';
-  display: inline-block;
-  /*para ele nao quebrar a linha e ainda assim poder manusea-lo como uma forma de bloco no navegador*/
-  width: 25px;
-  height: 23px;
-  margin-right: 5px; }
-
-.depoimentos__pessoa {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic; }
+  .depoimentos__item {
+    padding: 0 15px; }
+  .depoimentos__img {
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px 3px 0 #000;
+    /*sombra na imagem, mexendo na horizontal, vertical e blur da sombra onde 0 é o mais alto*/
+    margin-bottom: 30px; }
+  .depoimentos__texto {
+    line-height: 24px;
+    margin-bottom: 30px; }
+  .depoimentos__texto::before {
+    background: url("../img/aspas.png") no-repeat;
+    content: '';
+    display: inline-block;
+    /*para ele nao quebrar a linha e ainda assim poder manusea-lo como uma forma de bloco no navegador*/
+    width: 25px;
+    height: 23px;
+    margin-right: 5px; }
+  .depoimentos__pessoa {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic; }
 
 .formulario {
   background-color: #efecec;
@@ -422,29 +409,25 @@ body {
   margin-right: -15px;
   padding: 40px 15px 40px 15px;
   box-shadow: 0 3px 5px #989898; }
-
-.formulario__campo {
-  width: 100%;
-  border: 1px solid #c4c4c4;
-  border-radius: 5px;
-  padding: 10px 5px 10px 5px; }
-
-.formulario__grupo {
-  margin-bottom: 15px; }
-
-.formulario__label {
-  color: #343434; }
-
-.formulario__botao {
-  border: 3px solid #f44242;
-  border-radius: 300px;
-  background-color: #fff;
-  color: #f44242;
-  padding: 5px 20px 5px 20px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-  font-weight: bold; }
+  .formulario__campo {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px; }
+  .formulario__grupo {
+    margin-bottom: 15px; }
+  .formulario__label {
+    color: #343434; }
+  .formulario__botao {
+    border: 3px solid #f44242;
+    border-radius: 300px;
+    background-color: #fff;
+    color: #f44242;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold; }
 
 /*Logotipo*/
 .logo {
@@ -457,9 +440,8 @@ body {
   text-indent: -9999px;
   /*Sumir com o texto "Design Responsivo" definido por padrão no logo, porém mantém a acessibilidade do site (leitores de tela etc etc)"*/
   margin: 0; }
-
-.logo--branco {
-  background-image: url("../img/logotipo-branco.png"); }
+  .logo--branco {
+    background-image: url("../img/logotipo-branco.png"); }
 
 .mapa {
   background: #f44242;
@@ -468,14 +450,13 @@ body {
   position: relative;
   overflow: hidden;
   margin: 0 -15px -25px -15px; }
-
-.mapa iframe {
-  width: 100% !important;
-  /*"!important" irá reescrever os atributos que o iframe tem, no caso altura e largura*/
-  height: 100% !important;
-  position: absolute;
-  top: 0;
-  left: 0; }
+  .mapa iframe {
+    width: 100% !important;
+    /*"!important" irá reescrever os atributos que o iframe tem, no caso altura e largura*/
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 /*Menu Principal*/
 .menu-principal__btn {
@@ -495,10 +476,9 @@ body {
   position: absolute;
   top: 15px;
   right: 15px; }
-
-.menu-principal__btn--fechar {
-  background-position: -48px 7px;
-  /*usando uma imagem para o menu, porém trocando-as pela posição*/ }
+  .menu-principal__btn--fechar {
+    background-position: -48px 7px;
+    /*usando uma imagem para o menu, porém trocando-as pela posição*/ }
 
 .menu-principal__lista {
   padding: 0;
@@ -512,9 +492,8 @@ body {
   margin-bottom: 10px;
   display: block;
   font-size: 18px; }
-
-.menu-principal__item--atual {
-  color: #f44242; }
+  .menu-principal__item--atual {
+    color: #f44242; }
 
 .pagina-cabecalho {
   background-color: #f44242;
@@ -524,43 +503,38 @@ body {
   color: #fff;
   padding-top: 40px;
   padding-bottom: 40px; }
-
-.pagina-cabecalho__titulo {
-  text-align: center;
-  text-transform: uppercase; }
-
-.pagina-cabecalho__titulo::after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #fff;
-  margin: 0 auto;
-  /*deixando as margens top e bottom zerados e o valor "auto" centraliza o objeto no centro da tela, no caso uma linha abaixo do título "Sobre nós"*/
-  margin-top: 20px; }
+  .pagina-cabecalho__titulo {
+    text-align: center;
+    text-transform: uppercase; }
+    .pagina-cabecalho__titulo::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background-color: #fff;
+      margin: 0 auto;
+      /*deixando as margens top e bottom zerados e o valor "auto" centraliza o objeto no centro da tela, no caso uma linha abaixo do título "Sobre nós"*/
+      margin-top: 20px; }
 
 .pagina-conteudo {
   padding: 15px;
   padding-top: 25px;
   padding-bottom: 25px; }
-
-.pagina-conteudo p {
-  color: #3a3a3a;
-  line-height: 22px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  .pagina-conteudo p {
+    color: #3a3a3a;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 .servicos {
   padding: 30px 0;
   /*simplificando o valor da propriedade, mexendo em top e bottom (30) e em seguida left right (0)*/ }
-
-.servicos__item {
-  text-align: center;
-  padding: 0 15px;
-  margin-bottom: 50px; }
-
-.servicos__texto {
-  color: #3a3a3a; }
+  .servicos__item {
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 50px; }
+  .servicos__texto {
+    color: #3a3a3a; }
 
 .cabecalho-home {
   background: url("../img/cabecalho-home-bg.jpg") #000 no-repeat;
@@ -568,46 +542,39 @@ body {
   color: #fff;
   text-align: center;
   padding: 50px 0; }
-
-.cabecalho-home__titulo {
-  font-size: 40px;
-  margin-bottom: 0; }
-
-.cabecalho-home__role {
-  display: none; }
+  .cabecalho-home__titulo {
+    font-size: 40px;
+    margin-bottom: 0; }
+  .cabecalho-home__role {
+    display: none; }
 
 .home__titulo {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 50px; }
-
-.home__titulo::after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #f44242;
-  margin: 0 auto;
-  margin-top: 15px; }
-
-.home__titulo--branco::after {
-  background-color: #fff; }
+  .home__titulo::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #f44242;
+    margin: 0 auto;
+    margin-top: 15px; }
+  .home__titulo--branco::after {
+    background-color: #fff; }
 
 .lista-trabalhos {
   list-style: none;
   padding: 0; }
-
-.lista-trabalhos__item {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-bottom: 50px; }
-
-.lista-trabalhos__item a {
-  text-decoration: none; }
-
-.lista-trabalhos__titulo {
-  color: #000;
-  font-size: 18px;
-  margin-left: 15px;
-  border-left: 1px solid #000;
-  padding-left: 10px; }
+  .lista-trabalhos__item {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 50px; }
+    .lista-trabalhos__item a {
+      text-decoration: none; }
+  .lista-trabalhos__titulo {
+    color: #000;
+    font-size: 18px;
+    margin-left: 15px;
+    border-left: 1px solid #000;
+    padding-left: 10px; }
