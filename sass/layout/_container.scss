@@ -1,0 +1,4 @@
+.container{
+    max-width: 1200px; /*max-width para nao tem um overflow na página, sendo assim ele respeita dispositivos menores mesmo tendo 1200px de largura*/
+    margin: 0 auto; /*margin 0 no top e no bottom e automatico dos lados*/
+}
