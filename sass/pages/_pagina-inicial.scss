@@ -12,8 +12,10 @@
     &__role{
         display: none;
     }
+    @media(min-width:$breakpoint-lg){
+            height: 100vh; /*vh = vertical height ou altura vertical, que assim ocupará toda a altura da tela*/
+    }
 }
-
 
 .home__titulo{
     text-align: center;

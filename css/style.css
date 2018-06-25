@@ -327,10 +327,23 @@ body {
   font-family: "Source Sans Pro"; }
 
 .container {
-  max-width: 1200px;
-  /*max-width para nao tem um overflow na página, sendo assim ele respeita dispositivos menores mesmo tendo 1200px de largura*/
   margin: 0 auto;
-  /*margin 0 no top e no bottom e automatico dos lados*/ }
+  /*margin 0 no top e no bottom e automatico dos lados*/
+  padding-left: 15px;
+  padding-right: 15px;
+  /*Media queries(baseado em documento do Bootstrap) para setar a largura dos blocos com a classe "container" conforme a tela aumenta*/ }
+  @media (min-width: 576px) {
+    .container {
+      width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px; } }
 
 /*Cabeçalho*/
 .cabecalho {
@@ -553,6 +566,10 @@ body {
     margin-bottom: 0; }
   .cabecalho-home__role {
     display: none; }
+  @media (min-width: 992px) {
+    .cabecalho-home {
+      height: 100vh;
+      /*vh = vertical height ou altura vertical, que assim ocupará toda a altura da tela*/ } }
 
 .home__titulo {
   text-align: center;

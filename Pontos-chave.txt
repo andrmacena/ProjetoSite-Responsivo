@@ -1,0 +1,13 @@
+pontos importante para site responsivo:
+
+- primeiro setar a página em html puro, divindo os blocos com div, sections etc.
+- usar media queries, para determinar o tamanho das páginas conforme o tamanho do dispositivo
+- trabalhar com sass para aumentar a legibilidade do código e gerar facilmente o código compatível em css
+- aninhamento de código para melhorar a organização e legibilidade do código, pois o sass permite isso diferente do css puro
+- definir variáveis que virão a ser usadas em diferentes partes do código, facilitando então a escrita
+
+------------------------------------------------------------------------------------------------------------
+
+MEDIAS QUERIES
+RESET DE PÁGINA (NORMALIZE, ARQUIVO PRONTO!)
+SASS (CSS COM MELHORIAS, porém não o substitue)

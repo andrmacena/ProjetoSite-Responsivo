@@ -1,4 +1,18 @@
 .container{
-    max-width: 1200px; /*max-width para nao tem um overflow na página, sendo assim ele respeita dispositivos menores mesmo tendo 1200px de largura*/
     margin: 0 auto; /*margin 0 no top e no bottom e automatico dos lados*/
+    padding-left: 15px;
+    padding-right: 15px;
+    /*Media queries(baseado em documento do Bootstrap) para setar a largura dos blocos com a classe "container" conforme a tela aumenta*/
+    @media(min-width: $breakpoint-sm){
+        width: 540px;
+    }
+    @media(min-width: $breakpoint-md){
+        width: 720px;
+    }
+    @media(min-width: $breakpoint-lg){
+        width: 960px;
+    }
+    @media(min-width: $breakpoint-xl){
+        width: 1140px;
+    }
 }
