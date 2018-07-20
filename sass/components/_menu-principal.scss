@@ -16,6 +16,9 @@
     position: absolute;
     top: 15px;
     right: 15px;
+    @media(min-width: $breakpoint-md){
+        display: none;
+    }
 
     &--fechar/*classe modificadora do botão para mobile, classe do botão em estado de fechado*/{
     
@@ -24,10 +27,16 @@
     }
 }
 
-
 .menu-principal__lista{
     padding: 0;
     list-style: none; /*tirar os pontos da lista*/ 
+    @media(min-width: $breakpoint-md){
+        li{
+            display: inline-block;
+            margin: 0 10px; 
+        }
+    }
+    
 }
 
 .menu-principal__item{
